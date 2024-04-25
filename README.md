@@ -1,34 +1,34 @@
 # PersonalCertificateAuthority
 
-Download and Setup 3 Microsoft Server 2022 vm instances with default settings and one normal Windows 10 Desktop. The Desktop doesnt need any setup.
+- Download and Setup 3 Microsoft Server 2022 vm instances with default settings and one normal Windows 10 Desktop. The Desktop doesnt need any setup.
 
-Designate one of those machines as the DC (Domain Controller), one as the RootCA and the other as the Subordinate CA.
+- Designate one of those machines as the DC (Domain Controller), one as the RootCA and the other as the Subordinate CA.
 
-First, on the DC machine create a folder under the C drive called “temp”. The path should be this “C:\temp”
+- First, on the DC machine create a folder under the C drive called “temp”. The path should be this “C:\temp”
 
-Next, on the DC machine run this script FIRST in an Administrator Powershell ISE.
+- Next, on the DC machine run this script FIRST in an Administrator Powershell ISE.
 
 
 
-Once the Script has successfully finished, open up Server Manager, press “Manage” then “Add Roles and Features”. In the prompt click next 3 times until you get to the “Server Roles” part.
+- Once the Script has successfully finished, open up Server Manager, press “Manage” then “Add Roles and Features”. In the prompt click next 3 times until you get to the “Server Roles” part.
 
-Install DNS, AD Domain Services, and AD Lightweight Directory Services.
+- Install DNS, AD Domain Services, and AD Lightweight Directory Services.
 
-Click ok and next to everything and then install.
+- Click ok and next to everything and then install.
 
-AD CONFIGURATION
+- AD CONFIGURATION
 
-“Add a new forest”, press next
+- “Add a new forest”, press next
 
-Provide a domain name “example.domain.com”. Press next
+- Provide a domain name “example.domain.com”. Press next
 
-Provide a password. Example “Password123”. Press next
+- Provide a password. Example “Password123”. Press next
 
-Skip DNS Options and press next.
+- Skip DNS Options and press next.
 
-Additional Options press next.
+- Additional Options press next.
 
-Keep defaults for Paths and press next
+- Keep defaults for Paths and press next
 
 In Review Options verify things are correct and press next.
 
