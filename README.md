@@ -36,9 +36,7 @@ If you “All prerequisite checks passed”, press install
 
 Open AD Users and Computers, create a user, make it a member of these groups
 
-![alt text](![image](https://github.com/Chris-Patrick/PersonalCertificateAuthority/assets/88513662/c3435410-93af-4450-8ff1-0b52875d9996)
-)
-
+![image](https://github.com/Chris-Patrick/PersonalCertificateAuthority/assets/88513662/52abe0f0-ba28-484d-a03d-b49ed08ba311)
 
 Next open a Admin PowerShell and enter the following command (Note: This is for test not production machines).
 
