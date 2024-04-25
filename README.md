@@ -40,7 +40,7 @@ Open AD Users and Computers, create a user, make it a member of these groups
 
 Next open a Admin PowerShell and enter the following command (Note: This is for test not production machines).
 
-Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+> '''Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False'''
 
 Once completed Restart the DC Machine and switch over to our second Subordinate machine.
 
